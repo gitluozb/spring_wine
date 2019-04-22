@@ -1,0 +1,16 @@
+server:
+  port: 8082
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8080/eureka/
+spring:
+  application:
+    name: service-wine
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.101.112:3306/test?useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: root
+mybatis:
+  mapper-locations: classpath:/mybatis/*.xml
