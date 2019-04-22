@@ -11,6 +11,10 @@ public class WineBean {
 
     private Double winePrice;
 
+    private Double startPrice;
+
+    private Double endPrice;
+
     private Integer  wineStock;
 
     private Integer  wineSalesVolume;
@@ -25,12 +29,49 @@ public class WineBean {
 
     private String  wineCreateTime;
 
+    private Integer sortNum;
+
+    private Integer sortPrice;
+
+    public Integer getSortPrice() {
+        return sortPrice;
+    }
+
+    public void setSortPrice(Integer sortPrice) {
+        this.sortPrice = sortPrice;
+    }
+
+    public Integer getSortNum() {
+        return sortNum;
+    }
+
+    public void setSortNum(Integer sortNum) {
+        this.sortNum = sortNum;
+    }
+
     public Integer getId() {
         return id;
     }
 
     public void setId(Integer id) {
         this.id = id;
+    }
+
+
+    public Double getStartPrice() {
+        return startPrice;
+    }
+
+    public void setStartPrice(Double startPrice) {
+        this.startPrice = startPrice;
+    }
+
+    public Double getEndPrice() {
+        return endPrice;
+    }
+
+    public void setEndPrice(Double endPrice) {
+        this.endPrice = endPrice;
     }
 
     public String getWineName() {
